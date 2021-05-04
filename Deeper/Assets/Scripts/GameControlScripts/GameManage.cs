@@ -18,8 +18,8 @@ public class GameManage : MonoBehaviour
 
     void Start()
     {
-        Invoke("spawnAnvil", 0);
-        Invoke("setUpCamera", 0.2f);
+        Invoke("spawnAnvil", 1f);
+        Invoke("setUpCamera", 2f);
     }
 
     void Update()
@@ -30,7 +30,8 @@ public class GameManage : MonoBehaviour
     void spawnAnvil()
     {
         //find spawnpoint
-        GameObject spawn = GameObject.Find("SpawnPoint");
+        GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
+        Debug.Log(spawn);
 
         Vector3 spawnOffset = new Vector3(0, 1, 0);
 
@@ -42,5 +43,6 @@ public class GameManage : MonoBehaviour
         Vector3 camInitPos = realAnvil.transform.position + new Vector3(8, 0, 0);
         Camera.transform.position = camInitPos;
         Camera.transform.Rotate(new Vector3(0, 270, 0));
+        Camera.transform.parent = realAnvil.transform;
     }
 }
