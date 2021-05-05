@@ -83,7 +83,7 @@ public class MapGenerator : MonoBehaviour
                         placeLight(LightFab, yHeight, i,6,"g",0);
                         break;
                     case '2':
-                        placeLight(LightFab, yHeight, i, 6, "r", 2);
+                        placeLight(LightFab, yHeight, i, 3, "r", 20);
                         break;
                     case '3':
                         placeLight(LightFab, yHeight, i, 8, "b", 4);

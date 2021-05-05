@@ -27,11 +27,9 @@ Map Decoder
 	Lights
 
 	1 : Green
-	2 : Green-Strobe
-	3 : Red
-	4 : Red-Strobe
-	5 : Blue 
-	6 : Blue-Strobe
+	2 : Red
+	3 : Blue
+	
 
 
 
@@ -43,9 +41,12 @@ Helpful Copy/Pastes
 
 	Walls but empty
 	$..............................$
+	#$............................$#
+	##$..........................$##
+	###$........................$###
 	
 	Horizontal Line
 	$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
-	
+

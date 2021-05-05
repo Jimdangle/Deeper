@@ -14,6 +14,7 @@ public class Strobe : MonoBehaviour
     {
         liggy = GetComponent<Light>();
         liggy.color = color;
+        liggy.range = 6;
 
         change = 0;
     }
