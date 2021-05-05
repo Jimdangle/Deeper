@@ -320,9 +320,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/MapGenerator.cs"
 "Assets/Scripts/GameControlScripts/GameManage.cs"
+"Assets/Scripts/GameControlScripts/MapGenerator.cs"
+"Assets/Scripts/ObstacleScripts/SlideScript.cs"
+"Assets/Scripts/PlayerScripts/AnvilCollider.cs"
 "Assets/Scripts/PlayerScripts/AnvilMovement.cs"
+"Assets/Strobe.cs"
 -langversion:8.0
 
 /deterministic

@@ -36,11 +36,13 @@ public class AnvilMovement : MonoBehaviour
             rb.freezeRotation = true;
             transform.Rotate(new Vector3(-1, 0, 0) * turnSpeed * Time.deltaTime);
         }
+        
         if (Input.GetKey(KeyCode.D))
         {
             rb.freezeRotation = true;
             transform.Rotate(new Vector3(1, 0, 0) * turnSpeed * Time.deltaTime);
         }
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddRelativeForce(Vector3.up * thrust);

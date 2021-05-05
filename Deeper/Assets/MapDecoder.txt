@@ -1,0 +1,51 @@
+Map Decoder
+
+
+	These both do the same thing but It is nice visually to have different ones.
+	Game will use either and not cause problems
+
+	# : empty(outside)
+	. : empty(inside)
+
+
+	Starting point and end checkpoint
+
+	x : SpawnPoint
+	E : endpoint
+
+
+	Pickups
+
+	C,c : coins
+
+
+	Obstacles
+
+	S : slider obstacle
+
+
+	Lights
+
+	1 : Green
+	2 : Green-Strobe
+	3 : Red
+	4 : Red-Strobe
+	5 : Blue 
+	6 : Blue-Strobe
+
+
+
+
+Helpful Copy/Pastes
+
+	Empty Row
+	################################
+
+	Walls but empty
+	$..............................$
+	
+	Horizontal Line
+	$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+	
